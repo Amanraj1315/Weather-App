@@ -66,7 +66,8 @@ function Weather() {
           <p className="description">
             {weatherData && weatherData.weather && weatherData.weather[0]
               ? weatherData.weather[0].description
-              : ""}
+              : ""} 
+              
           </p>
           <div className="weather-info">
             <div className="column">
